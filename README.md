@@ -11,7 +11,7 @@ This package allows you to build a SPA with Laravel and Nuxt.
 ## Installation
 
 ```bash
-composer require pallares/laravel-nuxt
+composer require kamalsroor/laravel-nuxt
 ```
 
 In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in `config/app.php` file:
@@ -21,7 +21,7 @@ return [
   // ...
   'providers' => [
       // ...
-      Pallares\LaravelNuxt\LaravelNuxtServiceProvider::class,
+      Kamalsroor\LaravelNuxt\LaravelNuxtServiceProvider::class,
   ],
 ];
 ```
@@ -33,7 +33,7 @@ You need to add a fallback route that will render the SPA page in `routes/web.ph
 // Add this route the last, so it doesn't interfere with your other routes.
 Route::get(
     '{uri}',
-    '\\'.Pallares\LaravelNuxt\Controllers\NuxtController::class
+    '\\'.Kamalsroor\LaravelNuxt\Controllers\NuxtController::class
 )->where('uri', '.*');
 ```
 
