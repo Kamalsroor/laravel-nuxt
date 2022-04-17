@@ -35,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pallares\\LaravelNuxt\\LaravelNuxtServiceProvider"
+                "Kamalsroor\\LaravelNuxt\\LaravelNuxtServiceProvider"
             ]
         }
     }
