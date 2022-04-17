@@ -1,6 +1,6 @@
 <?php
 
-namespace Pallares\LaravelNuxt\Controllers;
+namespace Kamalsroor\LaravelNuxt\Controllers;
 
 use Illuminate\Http\Request;
 
