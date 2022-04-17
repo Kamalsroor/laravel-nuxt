@@ -15,6 +15,12 @@
             "email": "cristian@pallares.io",
             "homepage": "https://pallares.io",
             "role": "Developer"
+        },
+        {
+            "name": "Kamal Sroor",
+            "email": "Kamal.s.sroor@gmail.com",
+            "homepage": "https://kamalsroor.store",
+            "role": "Developer"
         }
     ],
     "require": {
